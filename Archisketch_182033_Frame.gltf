@@ -1,0 +1,170 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 13116,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3043,
+      "max": [
+        257.792999267578,
+        751.27490234375,
+        244.222229003906
+      ],
+      "min": [
+        -257.792999267578,
+        2.10760498046875,
+        -260.570983886719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3043,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3043,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 6.2.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 52464,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36516,
+      "byteOffset": 52464,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36516,
+      "byteOffset": 88980,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24344,
+      "byteOffset": 125496,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 149840,
+      "uri": "Archisketch_182033_Frame.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Archisketch_182033_Frame_baseColor.png"
+    },
+    {
+      "uri": "Archisketch_182033_Frame_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Archisketch_182033_Frame_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Archisketch_182033_Frame",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane_Plane.014",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "Archisketch_182033_Frame.obj"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Plane_Plane.014"
+    },
+    {
+      "mesh": 0,
+      "name": "Plane_Plane.014"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
